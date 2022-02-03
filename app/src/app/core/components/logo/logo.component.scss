@@ -1,0 +1,29 @@
+@import '../../../../variables';
+
+.center {
+    margin: 10px auto !important;
+    display: block !important;
+}
+
+svg {
+    max-height: 100%;
+    max-width: 100%;
+    .p0 {
+        fill: $primaryColor;
+    }
+    .p1 {
+        fill: darken($primaryColor, 20);
+    }
+    .p2 {
+        fill: white;
+    }
+}
+
+.name-logo {
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
+        'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: unset;
+    margin: 10px 10px 0 0;
+    padding: 5px 76px;
+}
